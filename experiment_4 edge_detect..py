@@ -1,5 +1,4 @@
-#HEISNAM KAVIT SINGH
-#Redg. No. NDU202400083 MTECH-AI NIELIT IMPHAL
+
 #Experiment 4: Edge Detection 
 #Design and implement a Python program using OpenCV to perform edge detection based on the 
 #Canny algorithm. 
@@ -22,4 +21,5 @@ cv2.imshow('Sobel y', gradients_sobely)
 cv2.imshow('Sobel X+y', gradients_sobelxy)
 cv2.imshow('laplacian', gradients_laplacian)
 cv2.imshow('Canny', canny_output)
+
 cv2.waitKey()
